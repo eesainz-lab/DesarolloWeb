@@ -1,0 +1,73 @@
+<html lang="es">
+  <head>
+    <meta charset="UTF=8">
+          
+          <title> Actividad de DOM JS</title>
+          </head>
+<!--Cuando haga ckick en el título debe cambiarse, para ello vamos a colocarle un id al h1--->
+  
+<body>
+  <h1 id="titulo-main" style="color:#0B2699">
+    Desafío de JS </h1>
+  
+  <hr>
+  <!--Sección de cajas -->
+  <h3 id="titulo-cajas" style="color: #DE3A3A">EL RETO DE LAS CAJAS </h3>
+  
+  <button id="btn-cajas-titulo"> Cambia el titulo de cajas
+          
+          </button>
+  
+  <div class="contenedor">
+    <div class="caja"> Caja 1
+    </div>    
+ 
+    <div class="caja"> Caja 2
+    </div>    
+  
+    <div class="caja"> Caja 3
+    </div>    
+    
+  </div>
+  
+  <button id="btn-color-cajas">Cambiar color de cajas</button>
+  
+  <button id="btn-primera-caja"> Cambiar el color de la caja 1 </button>
+  
+    <button id="btn-borde"> Cambiar el color del borde </button>
+  <!--Sección de imágenes-->
+  
+  <h3 id="titulo-galeria" style="color: #1BE314">EL RETO DE LAS IMÁGENES. </h3>
+ 
+  
+  <hr>
+  <h2>Reto- Galeria</h2>
+  <div class="container py-4">
+   <!-- Input y Botón -->
+    <div class="row mb-3">
+      <div class="col-md-8">
+        <input 
+          type="text" 
+          class="form-control" 
+          id="imageUrlInput" 
+          placeholder="Introduce la URL de la imagen">
+      </div>
+      
+      <div class="col-md-4">
+        <button 
+          class="btn btn-primary w-100" 
+          id="addImageBtn">
+          Agregar Imagen
+        </button>
+      </div>
+
+
+    <!-- Contenedor de la galería -->
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" id="galleryContainer">
+      <!-- Aquí se añadirán las imágenes dinámicamente -->
+    </div>
+  </div>
+  
+  
+</body>
+</html>
